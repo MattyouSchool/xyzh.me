@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eef2f6">
+  <meta name="description" content="Ontdek ITLab: maak, speel en deel je eigen games.">
+  <title>xyzh.me — Maak. Speel. Deel.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script type="module" src="home.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="xyzh.me home"><span class="brand-mark">x</span><span>xyzh<span class="brand-dot">.</span>me</span></a>
+    <nav class="main-nav" aria-label="Hoofdnavigatie">
+      <a href="#platform">Platform</a><a href="#games">Games</a><a href="https://itlab.xyzh.me">ITLab</a>
+    </nav>
+    <div class="header-actions">
+      <button class="text-button" id="sign-in" type="button">Inloggen</button>
+      <button class="button button-small" id="sign-up" type="button">Account maken <span aria-hidden="true">↗</span></button>
+      <div id="user-button" class="user-button" hidden></div>
+    </div>
+    <button class="mobile-menu" id="mobile-menu" aria-label="Menu openen" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> JOUW PLEK OM TE MAKEN EN TE SPELEN</div>
+        <h1>Idee in je hoofd?<br><span class="highlight">Bouw het in ITLab.</span></h1>
+        <p class="hero-text">Maak je eigen games, probeer die van anderen en deel je creaties. Alles begint bij ITLab.</p>
+        <div class="hero-actions"><a class="button" href="https://itlab.xyzh.me">Naar ITLab <span aria-hidden="true">↗</span></a><button class="button button-light" id="hero-signup" type="button">Maak gratis een account</button></div>
+        <div class="hero-note"><span class="avatars"><i>M</i><i>I</i><i>T</i></span><span>Van eerste idee tot speelbare game.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustratie van het ITLab-platform">
+        <div class="art-glow"></div>
+        <div class="float-card float-card-top"><span class="float-icon blue">✳</span><span><b>Jouw idee</b><small>Begint hier</small></span><span class="tiny-arrow">↗</span></div>
+        <div class="studio-window">
+          <div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span>ITLab Studio</span><span class="window-menu">···</span></div>
+          <div class="window-body"><div class="window-side"><b class="side-logo">IT<span>Lab</span></b><i></i><i></i><i></i><i></i></div><div class="window-content"><div class="window-kicker">JOUW STUDIO</div><b class="window-title">Wat ga je maken?</b><div class="mini-canvas"><span class="sun"></span><span class="hill hill-one"></span><span class="hill hill-two"></span><span class="pixel-player">◆</span><span class="platform"></span><span class="canvas-label">JOUW WERELD</span></div><div class="window-footer"><span><i class="status-dot"></i> Klaar om te spelen</span><span>▶</span></div></div></div>
+        </div>
+        <div class="float-card float-card-bottom"><span class="float-icon amber">★</span><span><b>Speel & ontdek</b><small>Games van de community</small></span></div>
+        <div class="art-label">MAKE SOMETHING<br>YOU WANT TO PLAY</div>
+      </div>
+    </section>
+
+    <section class="steps wrap" id="platform">
+      <div class="section-heading"><div><div class="eyebrow">KLEIN BEGINNEN, GROOTS SPELEN</div><h2>Jij maakt het. Jij speelt het.</h2></div><p>Een plek om te experimenteren, plezier te maken en je games met anderen te delen.</p></div>
+      <div class="step-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-icon icon-blue">✳</div><h3>Maak iets nieuws</h3><p>Open de studio en geef jouw idee vorm. Jij bedenkt het spel; ITLab helpt je op weg.</p><a href="https://itlab.xyzh.me">Open de studio <span>↗</span></a></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-icon icon-amber">▶</div><h3>Speel en ontdek</h3><p>Probeer je eigen game uit en vind nieuwe dingen om te spelen.</p><a href="https://itlab.xyzh.me">Ontdek ITLab <span>↗</span></a></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-icon icon-ink">↗</div><h3>Deel met anderen</h3><p>Laat zien wat je hebt gemaakt en nodig anderen uit om mee te spelen.</p><a href="https://itlab.xyzh.me">Aan de slag <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="launch wrap" id="games">
+      <div class="launch-copy"><div class="eyebrow">JOUW VOLGENDE AVONTUUR</div><h2>Er staat al iets<br>voor je klaar.</h2><p>Spring op je fiets, pak je lijn en probeer de finish te halen in Bikebound.</p><a class="button button-dark" href="bikebound.html">Speel Bikebound <span>↗</span></a></div>
+      <div class="launch-art"><div class="launch-sky"><span class="launch-sun"></span><span class="mountain mountain-a"></span><span class="mountain mountain-b"></span><span class="mountain mountain-c"></span><div class="launch-track"></div><div class="bike-token">B</div><span class="launch-caption">SKYWAY<br>TRIALS</span></div><div class="launch-stamp">RIDE<br><b>THE EDGE</b></div></div>
+    </section>
+    <section class="bottom-cta wrap"><div><div class="eyebrow">KLAAR OM TE BEGINNEN?</div><h2>Jouw game wacht al.</h2></div><a class="button" href="https://itlab.xyzh.me">Ga naar ITLab <span>↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">x</span><span>xyzh<span class="brand-dot">.</span>me</span></a><span>Een plek om te maken, spelen en delen.</span><a href="https://itlab.xyzh.me">ITLab ↗</a><span class="copyright">© 2026 xyzh.me</span></footer>
+  <div id="auth-status" class="auth-status" role="status" aria-live="polite"></div>
+</body>
+</html>
